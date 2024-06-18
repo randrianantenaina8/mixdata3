@@ -1,0 +1,52 @@
+services:
+  back_prod:
+    build:
+      context: .
+      dockerfile: docker.prod.dockerfile
+    container_name: mixdata-back-prod
+    volumes:
+      - ./:/home/node/opt/mixdata/mixdata-back:rw,cached
+
+  mongo_prod:
+    image: mongo:7.0.8-jammy
+    container_name: mixdata-mongo-prod
+    env_file:
+      - ./.env
+    volumes:
+      - ../.data_mongo_prod:/data/db
+
+  express_prod:
+    image: mongo-express:1.0.2-20-alpine3.19
+    container_name: mixdata-express-prod
+    env_file:
+      - ./.env
+
+  elastic_prod:
+    container_name: mixdata-elastic-prod
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.1
+    environment:
+      bootstrap.memory_lock: true
+      ES_JAVA_OPTS: "-Xms1g -Xmx1g"
+      discovery.type: single-node
+      xpack.security.enabled: true
+      discovery.seed_hosts: elastic_prod
+      xpack.security.http.ssl.enabled: false
+    volumes:
+      - esdatadir:/usr/share/elasticsearch/data:rw
+
+  kibana_prod:
+    image: docker.elastic.co/kibana/kibana:8.13.1
+    container_name: mixdata-kibana-prod
+    env_file:
+      - ./.env
+    environment:
+      ELASTICSEARCH_HOSTS: ${ELASTICSEARCH_ELASTIC_ENDPOINT}
+      ELASTICSEARCH_USERNAME: ${ELASTICSEARCH_KIBANA_USERNAME}
+      ELASTICSEARCH_PASSWORD: ${ELASTICSEARCH_KIBANA_PASSWORD}
+
+
+
+volumes:
+  esdatadir:
+    name: mixdata_esdatadir
+    external: true

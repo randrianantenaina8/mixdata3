@@ -1,0 +1,89 @@
+{
+    "parcelles": [
+      {
+        "id": 1975264,
+        "resume": {
+          "code_postal_rue": "1239 Collex",
+          "adresse_complet": "Chemin du Crest-d'El 5, 1239 Collex",
+          "bat_annee": "3/1998",
+          "surface": "95400m2"
+        },
+        "contacts": [
+          {
+            "nom": "ARNI Sonia",
+            "type": "Propriétaire",
+            "etat": "En négociation",
+            "nb_affaire": 4,
+            "nb_note": 3,
+            "derniere_action": "25-01-2024"
+          },
+          {
+            "nom": "MARECHAL Antonella Maria",
+            "type": "Prospect",
+            "etat": "Refusé",
+            "nb_affaire": 1,
+            "nb_note": 2,
+            "derniere_action": "10-12-2023"
+          }
+        ]
+      },
+      {
+        "id": 4374209,
+        "resume": {
+          "code_postal_rue": "3270 Aarberg",
+          "adresse_complet": "Birkenweg 2a, 3270 Aarberg",
+          "bat_annee": "2/1983",
+          "surface": "80500m2"
+        },
+        "contacts": []
+      },
+      {
+        "id": 6888151,
+        "resume": {
+          "code_postal_rue": "",
+          "adresse_complet": "",
+          "bat_annee": null,
+          "surface": null
+        },
+        "contacts": []
+      },
+      {
+        "id": 7221194,
+        "resume": {
+          "code_postal_rue": "6043 Adligenswil",
+          "adresse_complet": "Angelmatte 1, 6043 Adligenswil",
+          "bat_annee": "3/1983",
+          "surface": "95400m2"
+        },
+        "contacts": []
+      },
+      {
+        "id": 57057570,
+        "resume": {
+          "code_postal_rue": "1239 Collex",
+          "adresse_complet": "Chemin du Crest-d'El 5, 1239 Collex",
+          "bat_annee": "3/1998",
+          "surface": "95400m2"
+        },
+        "contacts": [
+          {
+            "nom": "fefe Sonia",
+            "type": "Propriétaire",
+            "etat": "En négociation",
+            "nb_affaire": 4,
+            "nb_note": 3,
+            "derniere_action": "25-01-2024"
+          },
+          {
+            "nom": "eg ge Maria",
+            "type": "Prospect",
+            "etat": "Refusé",
+            "nb_affaire": 1,
+            "nb_note": 2,
+            "derniere_action": "10-12-2023"
+          }
+        ]
+      }
+    ]
+  }
+  

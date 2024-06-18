@@ -1,0 +1,9 @@
+node_modules
+build
+logs
+esdata
+config
+Dockerfile
+.env
+!dist/
+.popety-data

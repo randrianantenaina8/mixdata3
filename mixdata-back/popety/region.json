@@ -1,0 +1,115 @@
+[
+  {
+    "id": "1",
+    "name": "Genève",
+    "first_fao_date": "1996-01-03T00:00:00.000Z",
+    "primary_indice": "cos",
+    "secondary_indice": "ius",
+    "first_transaction_date": "1994-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "name": "Vaud",
+    "first_fao_date": "2019-01-25T00:00:00.000Z",
+    "primary_indice": "cos",
+    "secondary_indice": "cus",
+    "first_transaction_date": "2005-01-04T00:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "name": "Valais",
+    "first_fao_date": "2013-08-02T00:00:00.000Z",
+    "primary_indice": "ios",
+    "secondary_indice": "ibus",
+    "first_transaction_date": null
+  },
+  {
+    "id": "4",
+    "name": "Neuchâtel",
+    "first_fao_date": "2015-01-09T00:00:00.000Z",
+    "primary_indice": "ios",
+    "secondary_indice": "ius",
+    "first_transaction_date": null
+  },
+  {
+    "id": "5",
+    "name": "Schwyz",
+    "first_fao_date": null,
+    "primary_indice": "ios",
+    "secondary_indice": "ius",
+    "first_transaction_date": null
+  },
+  
+  {
+    "id": "6",
+    "name": "Basel-Landschaft",
+    "first_fao_date": null,
+    "primary_indice": "ios",
+    "secondary_indice": "ius",
+    "first_transaction_date": null
+  },
+  {
+    "id": "7",
+    "name": "Basel-Stadt",
+    "first_fao_date": null,
+    "primary_indice": "ios",
+    "secondary_indice": "ius",
+    "first_transaction_date": null
+  },
+  {
+    "id": "8",
+    "name": "Jura",
+    "first_fao_date": "2012-01-11T00:00:00.000Z",
+    "primary_indice": "ios",
+    "secondary_indice": "ius",
+    "first_transaction_date": null
+  },
+  {
+    "id": "9",
+    "name": "Thurgau",
+    "first_fao_date": null,
+    "primary_indice": "ios",
+    "secondary_indice": "ibus",
+    "first_transaction_date": null
+  },
+  {
+    "id": "10",
+    "name": "Fribourg",
+    "first_fao_date": "2011-01-07T00:00:00.000Z",
+    "primary_indice": "ios",
+    "secondary_indice": "ibus",
+    "first_transaction_date": "2011-01-21T00:00:00.000Z"
+  },
+  {
+    "id": "11",
+    "name": "Zürich",
+    "first_fao_date": "2007-03-30T00:00:00.000Z",
+    "primary_indice": "ios",
+    "secondary_indice": "ius",
+    "first_transaction_date": null
+  },
+  {
+    "id": "12",
+    "name": "Aargau",
+    "first_fao_date": "2014-01-10T00:00:00.000Z",
+    "primary_indice": "ios",
+    "secondary_indice": "ius",
+    "first_transaction_date": null
+  },
+  {
+    "id": "13",
+    "name": "St. Gallen",
+    "first_fao_date": null,
+    "primary_indice": "ios",
+    "secondary_indice": "ius",
+    "first_transaction_date": null
+  },
+  {
+    "id": "14",
+    "name": "Bern",
+    "first_fao_date": "2017-09-06T00:00:00.000Z",
+    "primary_indice": "ios",
+    "secondary_indice": "ibus",
+    "first_transaction_date": null
+  }
+]

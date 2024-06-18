@@ -1,0 +1,22 @@
+services:
+  back_local:
+    build:
+      context: .
+      dockerfile: docker.local.dockerfile
+    container_name: mixdata-back-local
+    volumes:
+      - ./:/home/node/opt/mixdata/mixdata-back:rw,cached
+
+  mongo_local:
+    image: mongo:7.0.8-jammy
+    container_name: mixdata-mongo-local
+    env_file:
+      - ./.env.dev
+    volumes:
+      - ../.data_mongo_local:/data/db
+
+  express_local:
+    image: mongo-express:1.0.2-20-alpine3.19
+    container_name: mixdata-express-local
+    env_file:
+      - ./.env.dev

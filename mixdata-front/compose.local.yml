@@ -1,0 +1,8 @@
+services:
+  front_local:
+    build:
+      context: .
+      dockerfile: docker.local.dockerfile
+    container_name: mixdata-front-local
+    volumes:
+      - ./:/home/node/opt/mixdata/mixdata-front:rw,cached

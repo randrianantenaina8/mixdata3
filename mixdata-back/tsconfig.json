@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es5",
+      "es6",
+      "esnext.asynciterable"
+    ],
+    "target": "es2019",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "logs"
+  ],
+  "files": [
+    "index.ts"
+  ],
+  "ts-node": {
+    // Do not forget to `npm i -D tsconfig-paths`
+    "require": [
+      "tsconfig-paths/register"
+    ],
+    
+  },
+}

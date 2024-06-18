@@ -1,0 +1,50 @@
+{
+    "personnes": [
+      {
+        "nom": "ARNI Sonia",
+        "prenom": "",
+        "habitation": "Rue du Mont-Blanc 15, 1202 Genève, Suisse",
+        "numero_fixe": "+624540784545054",
+        "numero_mobile": "+16404646040640",
+        "email": "SoniaArni@yahoo.fr",
+        "site_web": "https://arnisonia.com",
+        "facebook": "https://www.facebook.com/arnisonia",
+        "linkedin": "https://fr.linkedin.com/arnisonia",
+        "twitter": "https://www.twitter.com/arnisonia",
+        "whatsapp": "+16404646040640",
+        "type": "propriétaire",
+        "parcelles": [1975264, 4374209, 6888151, 1240, 35871]
+      },
+      {
+        "nom": "MARECHAL Antonella Maria",
+        "prenom": "",
+        "habitation": "Rue du Mont-Blanc 15, 4051 Genève, Suisse",
+        "numero_fixe": "+8654242000",
+        "numero_mobile": "+8852028082",
+        "email": "anto@yahoo.fr",
+        "site_web": "https://antonella.com",
+        "facebook": "https://www.facebook.com/antonella",
+        "linkedin": "https://fr.linkedin.com/antonella",
+        "twitter": "https://www.twitter.com/antonella",
+        "whatsapp": "+750750570",
+        "type": "prospect",
+        "parcelles": [1975264]
+      },
+      {
+        "nom": "fefe Sonia",
+        "prenom": "",
+        "habitation": "Rue du Hol 50, 4051 Genève, Suisse",
+        "numero_fixe": "+8654242000",
+        "numero_mobile": "+8852028082",
+        "email": "fefe@yahoo.fr",
+        "site_web": "https://fefe.com",
+        "facebook": "https://www.facebook.com/fefe",
+        "linkedin": "https://fr.linkedin.com/fefe",
+        "twitter": "https://www.twitter.com/fefe",
+        "whatsapp": "+454504",
+        "type": "prospect",
+        "parcelles": [57057570]
+      }
+    ]
+  }
+  

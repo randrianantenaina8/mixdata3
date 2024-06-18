@@ -1,0 +1,52 @@
+{
+    "parcelles" : [
+        {
+            "id": "1975264",
+            "surface": "95400",
+            "addresse": "Chemin du Crest-d'El 5, 1239 Collex",
+            "bat_annee": "3/1998",
+            "transaction": "2",
+            "enquete": "0"
+        },
+        {
+            "id": "4374209",
+            "surface": "80500",
+            "addresse": "Birkenweg 2a, 3270 Aarberg",
+            "bat_annee": "2/1983",
+            "transaction": "2",
+            "enquete": "0"
+        },
+        {
+            "id": "6888151",
+            "surface": "100005",
+            "addresse": "Angelmatte 1, 6043 Adligenswil",
+            "bat_annee": "5/2002",
+            "transaction": "2",
+            "enquete": "0"
+        },
+        {
+            "id": "1240",
+            "surface": "205400",
+            "addresse": "Chemin du Crest-d'El 5, 1239 Collex",
+            "bat_annee": "10/1950",
+            "transaction": "2",
+            "enquete": "0"
+        },
+        {
+            "id": "35871",
+            "surface": "15000",
+            "addresse": "East Paige",
+            "bat_annee": "5/2018",
+            "transaction": "2",
+            "enquete": "0"
+        },
+        {
+            "id": "57057570",
+            "surface": "54242",
+            "addresse": "East Paige",
+            "bat_annee": "5/2018",
+            "transaction": "2",
+            "enquete": "0"
+        }
+    ]
+}

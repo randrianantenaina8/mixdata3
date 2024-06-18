@@ -1,0 +1,8 @@
+services:
+  front_prod:
+    build:
+      context: .
+      dockerfile: docker.prod.dockerfile
+    container_name: mixdata-front-prod
+    volumes:
+      - ./.docker/nginx/conf.d:/etc/nginx/conf.d:ro
